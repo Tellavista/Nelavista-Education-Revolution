@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tellavista.onrender.com/sitemap.xml
+
+# Block any private folders if needed
+Disallow: /private/
+Disallow: /admin/
