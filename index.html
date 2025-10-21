@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nelavista – The AI Creativity Revolution</title>
-  <meta name="description" content="Nelavista – The AI-powered creativity revolution. Create animations, AI art, 3D designs, stories, and digital masterpieces with AI assistance, education, and tools for creators worldwide." />
-  <meta name="keywords" content="Nelavista, AI creativity platform, animation tools, AI art, design, 3D creation, storytelling, content generation, digital creativity, AI tools, creative education" />
+  <title>Nelavista – The AI Creativity and Education Revolution</title>
+  <meta name="description" content="Nelavista – The AI-powered platform for learning and creativity. Master university courses, create animations, design AI art, write stories, and build your future using intelligent AI tools and lessons." />
+  <meta name="keywords" content="Nelavista, AI education, AI creativity, learn with AI, university courses, AI art, animation, design, storytelling, 3D creation, digital learning, AI-powered creativity" />
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Nelavista – The AI Creativity Revolution" />
-  <meta property="og:description" content="Unleash your creative power with AI. Build, design, and animate using the next-generation AI platform for creators." />
+  <meta property="og:title" content="Nelavista – The AI Creativity and Education Revolution" />
+  <meta property="og:description" content="Learn, create, and innovate with AI. Study any course, build creative projects, and explore your full potential on Nelavista." />
   <meta property="og:image" content="https://nelavista.onrender.com/logo.png" />
   <meta property="og:url" content="https://nelavista.onrender.com/" />
 
@@ -41,35 +41,59 @@
 
 <body>
   <header>
-    <h1>Nelavista – The AI Creativity Revolution</h1>
-    <p>Unleash your creativity with AI. From animation and AI art to storytelling, design, and 3D creation — Nelavista empowers creators to turn imagination into reality.</p>
+    <h1>Nelavista – The AI Creativity and Education Revolution</h1>
+    <p>Learn anything. Create everything. Nelavista unites AI education and creativity — helping students and creators master knowledge, build skills, and design the future.</p>
   </header>
 
-  <p>Welcome to <strong>Nelavista</strong>, the next-generation AI platform for creators.  
-     Whether you’re an animator, artist, designer, writer, or innovator, Nelavista gives you smart AI tools, tutorials, and creative systems to help you build faster, create better, and master your craft.</p>
+  <p>Welcome to <strong>Nelavista</strong>, the global AI-powered platform for both learning and creation.  
+     Whether you’re a student mastering engineering or a creator designing animations, Nelavista gives you smart AI tools, tutorials, and guidance to help you excel in both academics and creativity.</p>
 
-  <div class="course-grid" id="category-grid"></div>
+  <div class="course-grid" id="course-grid"></div>
 
-  <a class="btn" href="https://nelavista.onrender.com/">Start Creating Now</a>
+  <a class="btn" href="https://nelavista.onrender.com/">Start Learning and Creating</a>
 
   <footer>
-    <p>© 2025 Nelavista – Empowering Global Creativity with AI.</p>
+    <p>© 2025 Nelavista – Redefining Global Learning and Creativity with AI.</p>
   </footer>
 
   <script>
-    const creativeCategories = [
-      "Animation", "AI Art", "Storytelling", "3D Creation", "Design", "Music Production",
-      "Video Editing", "Photography", "Game Development", "Voice AI", "Writing Assistant",
-      "Creative Coding", "Digital Marketing", "Content Creation", "Illustration", "Brand Design",
-      "Education AI", "Motivational Content", "Film Direction", "Social Media Tools"
+    const nelavistaSubjects = [
+      // --- Creative & AI Fields ---
+      "Animation", "AI Art", "3D Creation", "Storytelling", "Design", "Music Production", "Video Editing", 
+      "Photography", "Game Development", "Voice AI", "Creative Coding", "Writing Assistant", 
+      "Content Creation", "Illustration", "Film Direction", "Social Media Tools", "Digital Marketing", 
+      "Brand Design", "Education AI", "Motivational Content",
+      
+      // --- University Courses ---
+      "Accounting", "Aeronautic & Astronautic Engineering", "Agriculture", "Arabic Studies", "Banking & Finance", 
+      "Biochemistry", "Botany", "Building", "Business Administration", "Business Education", 
+      "Chemical & Polymer Engineering", "Chemistry", "Christian Religious Studies", "Common and Islamic Law", 
+      "Computer Science", "Curriculum Studies", "Dentistry & Dental Surgery", "Drama/Dramatic/Performing Arts", 
+      "Early Childhood & Primary Education", "Economics", "Educational Management", "Educational Technology", 
+      "Electronics and Computer Engineering", "English Education", "English Language", "Environmental Management", 
+      "Estate Management", "Fine Arts", "Fisheries and Aquatic Biology", "French", "French Language Education", 
+      "Geography and Planning", "Geography Education", "Guidance and Counselling", "Health Education", 
+      "History and International Studies", "History Education", "Industrial Design", 
+      "Industrial Engineering and Production", "Industrial Relations and Personnel Management", "Insurance", 
+      "Islamic and Common Law", "Islamic Religious Studies", "Islamic Religious Studies Education", 
+      "Library and Information Science", "Linguistics", "Local Government Development and Administration", 
+      "Logistics and Supply Chain Management", "Marketing", "Mass Communication", "Mathematics", 
+      "Mathematics Education", "Mechanical Engineering", "Medical Laboratory Science", "Medicine and Surgery", 
+      "Microbiology", "Music", "Nursing", "Peace Studies", "Pharmacology", "Pharmacy", "Philosophy", 
+      "Physical and Health Education", "Physics", "Physics Education", "Physiology", "Physiotherapy", 
+      "Political Science", "Political Science Education", "Portuguese/English", "Project Management Technology", 
+      "Psychology", "Public Administration", "Quantity Surveying", "Radiography and Radiation Science", 
+      "Science Laboratory Technology", "Social Studies and Civic Education", "Sociology", "Special Education", 
+      "Survey and Geo-Informatics", "Taxation", "Theatre and Film Arts", "Transport Management and Operations", 
+      "Urban and Regional Planning", "Yoruba", "Yoruba Education", "Zoology"
     ];
 
-    const grid = document.getElementById('category-grid');
-    creativeCategories.forEach(category => {
+    const courseGrid = document.getElementById('course-grid');
+    nelavistaSubjects.forEach(subject => {
       const div = document.createElement('div');
       div.className = 'course';
-      div.textContent = category;
-      grid.appendChild(div);
+      div.textContent = subject;
+      courseGrid.appendChild(div);
     });
   </script>
 </body>
