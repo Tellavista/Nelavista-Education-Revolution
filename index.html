@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tellavista – The AI Education Revolution</title>
-  <meta name="description" content="Tellavista – The AI-powered education revolution. Learn, master, and excel in every university course worldwide with interactive lessons, coding tutorials, science explanations, mathematics guidance, and motivational animation." />
-  <meta name="keywords" content="Tellavista, AI learning platform, university courses, learn with AI, interactive lessons, online education, personalized guidance, global education, study smarter, coding tutorials, science explanations, mathematics guidance, motivational animation" />
+  <title>Nelavista – The AI Creativity Revolution</title>
+  <meta name="description" content="Nelavista – The AI-powered creativity revolution. Create animations, AI art, 3D designs, stories, and digital masterpieces with AI assistance, education, and tools for creators worldwide." />
+  <meta name="keywords" content="Nelavista, AI creativity platform, animation tools, AI art, design, 3D creation, storytelling, content generation, digital creativity, AI tools, creative education" />
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Tellavista – The AI Education Revolution" />
-  <meta property="og:description" content="Master any university course worldwide with AI-powered lessons, quizzes, and personalized guidance." />
-  <meta property="og:image" content="https://tellavista-ai.github.io/logo.png" />
-  <meta property="og:url" content="https://tellavista-education-revolution.github.io/" />
+  <meta property="og:title" content="Nelavista – The AI Creativity Revolution" />
+  <meta property="og:description" content="Unleash your creative power with AI. Build, design, and animate using the next-generation AI platform for creators." />
+  <meta property="og:image" content="https://nelavista.onrender.com/logo.png" />
+  <meta property="og:url" content="https://nelavista.onrender.com/" />
 
-  <link rel="icon" href="https://tellavista-ai.github.io/favicon.png" />
+  <link rel="icon" href="https://nelavista.onrender.com/favicon.png" />
 
   <style>
     * {margin:0; padding:0; box-sizing:border-box;}
@@ -41,32 +41,35 @@
 
 <body>
   <header>
-    <h1>Tellavista – The AI Education Revolution</h1>
-    <p>Master any university course worldwide with AI-powered lessons, interactive quizzes, and personalized guidance.</p>
+    <h1>Nelavista – The AI Creativity Revolution</h1>
+    <p>Unleash your creativity with AI. From animation and AI art to storytelling, design, and 3D creation — Nelavista empowers creators to turn imagination into reality.</p>
   </header>
 
-  <p>Welcome to <strong>Tellavista</strong>, the AI platform that empowers students to excel in every university course.  
-     From engineering and medicine to business, arts, sciences, and social sciences, Tellavista provides personalized AI-driven lessons, explanations, and motivation to help you achieve your academic goals anywhere in the world.</p>
+  <p>Welcome to <strong>Nelavista</strong>, the next-generation AI platform for creators.  
+     Whether you’re an animator, artist, designer, writer, or innovator, Nelavista gives you smart AI tools, tutorials, and creative systems to help you build faster, create better, and master your craft.</p>
 
-  <div class="course-grid" id="course-grid"></div>
+  <div class="course-grid" id="category-grid"></div>
 
-  <a class="btn" href="https://tellavista.onrender.com/">Start Learning Now</a>
+  <a class="btn" href="https://nelavista.onrender.com/">Start Creating Now</a>
 
   <footer>
-    <p>© 2025 Tellavista – Redefining Global University Learning with AI.</p>
+    <p>© 2025 Nelavista – Empowering Global Creativity with AI.</p>
   </footer>
 
   <script>
-    const globalCourses = [
-      "Accounting", "Aeronautic & Astronautic Engineering", "Agriculture", "Arabic Studies", "Banking & Finance", "Biochemistry", "Botany", "Building", "Business Administration", "Business Education", "Chemical & Polymer Engineering", "Chemistry", "Christian Religious Studies", "Common and Islamic Law", "Computer Science", "Curriculum Studies", "Dentistry & Dental Surgery", "Drama/Dramatic/Performing Arts", "Early Childhood & Primary Education", "Economics", "Educational Management", "Educational Technology", "Electronics and Computer Engineering", "English Education", "English Language", "Environmental Management", "Estate Management", "Fine Arts", "Fisheries and Aquatic Biology", "French", "French Language Education", "Geography and Planning", "Geography Education", "Guidance and Counselling", "Health Education", "History and International Studies", "History Education", "Industrial Design", "Industrial Engineering and Production", "Industrial Relations and Personnel Management", "Insurance", "Islamic and Common Law", "Islamic Religious Studies", "Islamic Religious Studies Education", "Library and Information Science", "Linguistics", "Local Government Development and Administration", "Logistics and Supply Chain Management", "Marketing", "Mass Communication", "Mathematics", "Mathematics Education", "Mechanical Engineering", "Medical Laboratory Science", "Medicine and Surgery", "Microbiology", "Music", "Nursing", "Peace Studies", "Pharmacology", "Pharmacy", "Philosophy", "Physical and Health Education", "Physics", "Physics Education", "Physiology", "Physiotherapy", "Political Science", "Political Science Education", "Portuguese/English", "Project Management Technology", "Psychology", "Public Administration", "Quantity Surveying", "Radiography and Radiation Science", "Science Laboratory Technology", "Social Studies and Civic Education", "Sociology", "Special Education", "Survey and Geo-Informatics", "Taxation", "Theatre and Film Arts", "Transport Management and Operations", "Urban and Regional Planning", "Yoruba", "Yoruba Education", "Zoology"
+    const creativeCategories = [
+      "Animation", "AI Art", "Storytelling", "3D Creation", "Design", "Music Production",
+      "Video Editing", "Photography", "Game Development", "Voice AI", "Writing Assistant",
+      "Creative Coding", "Digital Marketing", "Content Creation", "Illustration", "Brand Design",
+      "Education AI", "Motivational Content", "Film Direction", "Social Media Tools"
     ];
 
-    const courseGrid = document.getElementById('course-grid');
-    globalCourses.forEach(course => {
+    const grid = document.getElementById('category-grid');
+    creativeCategories.forEach(category => {
       const div = document.createElement('div');
       div.className = 'course';
-      div.textContent = course;
-      courseGrid.appendChild(div);
+      div.textContent = category;
+      grid.appendChild(div);
     });
   </script>
 </body>
